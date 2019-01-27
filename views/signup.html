@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Sign Up Page</title>
+</head>
+
+<body id="signupPage">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">MockWiz</a>
+        </div>
+      </div>
+    </nav>
+    
+    <div class= "container">
+      <h3>Sign Up</h3>
+    </div>
+    
+    <form method="POST" action="/sign-up" class="container" id="signupform">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" name="username" id="username" placeholder="Enter Email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="username">Contact Number:</label>
+        <input type="number" class="form-control" name="number" id="number" placeholder="Enter Contact Number" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="password2">Confirm Password:</label>
+        <input type="password" class="form-control" name="password2" id="password2" placeholder="Confirm Password" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="major">School:</label>
+        <input type="text" class="form-control" name="school" id="school" placeholder="Enter your School" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="credits">Curriculum:</label>
+        <input type="text" class="form-control" name="curriculum" id="curriculum" placeholder="Enter your Curriculum" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="username">Subjects:</label>
+        <input type="text" class="form-control" name="subjects" id="subjects" placeholder="WILL BE CHECK BOX OF SUBJECTS" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="username">Session:</label>
+        <input type="text" class="form-control" name="session" id="session" placeholder="Enter Session" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="username">Area</label>
+        <input type="text" class="form-control" name="area" id="area" placeholder="Enter Area" required>
+      </div>
+      
+      <button type="submit" class="btn" id="submitbtn">Submit</button>
+      <button type="cancel" class="btn" id="cancelbtn">Cancel</button>
+    </form>
+    
+    
+    <br><br><br><br><br>
+    <footer>
+      <p style= "float:left">
+        <span class= "glyphicon glyphicon-copyright-mark"></span> <a target="_blank" rel="noopener noreferrer" href="http://www.iub.edu.bd/">Independent University, Bangladesh</a>
+        <br><br>
+        <span class= "glyphicon glyphicon-home"></span> Plot 16 Block B, Aftabuddin Ahmed Road
+        <br>Bashundhara R/A, Dhaka, Bangladesh
+      </p>
+      <p style= "float:right">
+        <span class= "glyphicon glyphicon-phone"></span> Phone:+88-02-8431645-53, 8432065-76
+        <br><span class= "glyphicon glyphicon-earphone"></span> Hotline:+880 9612-939393
+        <br><span class= "glyphicon glyphicon-briefcase"></span> Fax: +88-02-8431991
+        <br><span class= "glyphicon glyphicon-envelope"></span> E-mail: <a href="mailto:info@iub.edu.bd">info@iub.edu.bd</a>
+      </p>
+      <div style="clear: both"></div>
+    </footer>
+    
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/js/script.js"></script>
+ </body>
+</html>

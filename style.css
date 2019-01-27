@@ -1,0 +1,194 @@
+/*Home Page*/
+/* Navbar */
+.navbar{
+  /* min-height: 32px !important; */
+  border-bottom: 0;
+  margin-bottom: 0;
+  /* border-radius: 0; */
+  padding: 0;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+  /* padding-top: 6px !important; */
+  /* padding-bottom: 0 !important; */
+  /* height: 32px; */
+}
+
+.navbar-default {
+  background-color: CornflowerBlue;
+  border-color: #bfaab9;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #AEADAE;
+}
+.navbar-default .navbar-text {
+  color: #eadce8;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #AEADAE;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #F3F2F3;
+  background-color: #95728B;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f0f0f0;
+  background-color: #bfaab9;
+}
+.navbar-default .navbar-toggle {
+  border-color: #bfaab9;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #bfaab9;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #eadce8;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #eadce8;
+}
+.navbar-default .navbar-link {
+  color: #eadce8;
+}
+.navbar-default .navbar-link:hover {
+  color: #f0f0f0;
+}
+
+/*Sign Up Page*/
+#signupPage, html{
+    font-family: sans-serif;
+    color: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#signupPage{
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.signupheader
+{
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.signupheader:hover{
+    text-decoration: none;
+}
+
+.signupinfo{
+    font-size: 15px;
+}
+
+#signupheading{
+    background-color: CornflowerBlue;
+    height: 50px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+#signupform{
+    width: 500px;
+    margin-top: 70px;
+}
+
+#submitbtn{
+    margin-left: 150px;
+}
+
+#cancelbtn{
+    background-color: #ff5c33;
+    color: white;
+}
+
+/*LoginPage*/
+#loginPage, html{
+    font-family: sans-serif;
+    color: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#loginPage{
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.loginheader
+{
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#loginheading{
+    background-color: CornflowerBlue;
+    height: 50px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+#loginForm{
+    width: 500px;
+    margin-top: 70px;
+}
+
+.loginbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.loginbtn:hover {
+    opacity: 0.8;
+}
+
+
+/*Footer*/
+footer{
+    background-color: #2d2d30;
+    color: white;
+    padding: 25px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
